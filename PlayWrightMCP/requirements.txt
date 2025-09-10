@@ -1,0 +1,79 @@
+# Core MCP and AI Agent Dependencies
+openai-agents==0.2.11
+openai-agents-mcp==0.0.8
+mcp-agent==0.1.17
+mcp-agents==0.0.28
+mcp==1.13.1
+
+# OpenAI and AI Model Dependencies
+openai==1.107.0
+anthropic==0.66.0
+google-generativeai==0.8.5
+google-genai==1.34.0
+langchain==0.3.27
+langchain-anthropic==0.3.19
+langchain-core==0.3.75
+langchain-google-genai==2.1.10
+langchain-openai==0.3.32
+
+# Web Automation
+playwright==1.55.0
+
+# PDF Generation
+reportlab==4.4.3
+pillow==11.3.0
+
+# HTTP and Networking
+httpx==0.28.1
+aiohttp==3.12.15
+requests==2.32.5
+
+# Configuration and Environment
+python-dotenv==1.1.1
+pydantic==2.11.7
+pydantic-settings==2.10.1
+pydantic-yaml==1.6.0
+
+# Async and Concurrency
+anyio==4.10.0
+asyncio
+
+# Data Processing
+numpy==2.3.2
+scikit-learn==1.7.2
+scipy==1.16.1
+
+# Utilities
+click==8.2.1
+colorama==0.4.6
+rich==14.1.0
+tqdm==4.67.1
+typer==0.17.4
+
+# Security and Authentication
+cryptography==45.0.7
+google-auth==2.40.3
+google-auth-httplib2==0.2.0
+
+# JSON and Data Formats
+orjson==3.11.3
+PyYAML==6.0.2
+jsonschema==4.25.1
+
+# FastAPI and Web Framework (for MCP servers)
+fastapi==0.116.1
+uvicorn==0.35.0
+starlette==0.47.3
+
+# Monitoring and Observability
+opentelemetry-api==1.36.0
+opentelemetry-sdk==1.36.0
+opentelemetry-instrumentation-openai==0.46.2
+
+# Other Essential Dependencies
+certifi==2025.8.3
+charset-normalizer==3.4.3
+idna==3.10
+urllib3==2.5.0
+packaging==25.0
+typing_extensions==4.15.0
